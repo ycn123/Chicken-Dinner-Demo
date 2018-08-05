@@ -34,7 +34,32 @@ ModelImporter:
     4300004: shedroof200
     4300006: porch200
     4300008: floors200
-  externalObjects: {}
+    6400000: floors200
+    6400002: innerwalla200
+    6400004: mainA200
+    6400006: porch200
+    6400008: shedroof200
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Buildings1_jpg
+    second: {fileID: 2100000, guid: 69bb0c5274a26a3408021949c23e583f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bp1cinderblock00tile_jpg
+    second: {fileID: 2100000, guid: 8a97027b7b42f5549a52caa576ab83d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bp1concrete02_jpg
+    second: {fileID: 2100000, guid: d95e1ad592699e84eb6bf2caad6ec2dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bp1paintedwood00tile_jpg
+    second: {fileID: 2100000, guid: 27473b2539b742841ae31ace3ff31ed6, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -67,7 +92,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 100
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1

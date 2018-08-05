@@ -17,7 +17,19 @@ ModelImporter:
     3300002: roof0
     4300000: box0
     4300002: roof0
-  externalObjects: {}
+    6400000: box0
+    6400002: roof0
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Buildings1_jpg
+    second: {fileID: 2100000, guid: 69bb0c5274a26a3408021949c23e583f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bp1concrete02_jpg
+    second: {fileID: 2100000, guid: d95e1ad592699e84eb6bf2caad6ec2dc, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -50,7 +62,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 100
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
