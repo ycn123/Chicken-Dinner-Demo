@@ -61,7 +61,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Move.cs" />
+    <Compile Include="Assets\Scripts\MoveAsDebug.cs" />
+    <Compile Include="Assets\Scripts\PlayerTreatment.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/ycn/Documents/GitHub/Chicken-Dinner-Demo/Chicken Dinner Demo 01/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
