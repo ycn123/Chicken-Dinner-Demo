@@ -61,16 +61,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\MoveAsDebug.cs" />
-    <Compile Include="Assets\Scripts\PlayerTreatment.cs" />
+    <Compile Include="Assets\Scripts\PlayerCure\PlayerTreatment.cs" />
+    <Compile Include="Assets\Scripts\ScriptsTest\ChangeColor.cs" />
+    <Compile Include="Assets\Scripts\ScriptsTest\MoveAsDebug.cs" />
+    <None Include="Assets\Ultra Skybox Fog\Shaders\UltraSkyboxFog.shader" />
+    <None Include="Assets\Ultra Skybox Fog\Manual.txt" />
+    <None Include="Assets\Ultra Skybox Fog\Textures\Readme.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/ycn/Documents/GitHub/Chicken-Dinner-Demo/Chicken Dinner Demo 01/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/ycn/Documents/GitHub/Chicken-Dinner-Demo/Chicken Dinner Demo 01/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/ycn/Documents/GitHub/Chicken-Dinner-Demo/Chicken Dinner Demo 01/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>C:/Users/ycn/Documents/GitHub/Chicken-Dinner-Demo/Chicken Dinner Demo 01/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:/Users/ycn/Documents/GitHub/Chicken-Dinner-Demo/Chicken Dinner Demo 01/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
@@ -276,14 +280,8 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>D:/Unity2018.2/2018.2.2f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>C:/Users/ycn/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>C:/Users/ycn/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>C:/Users/ycn/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.3/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/Users/ycn/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
