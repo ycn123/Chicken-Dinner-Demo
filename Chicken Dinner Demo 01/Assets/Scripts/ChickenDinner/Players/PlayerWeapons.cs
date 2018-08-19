@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,6 +8,29 @@ public class PlayerWeapons : MonoBehaviour {
     public GameObject[] Weapons;
 
     GameObject _currentWeapon = null;
+    void Start()
+    {
+
+    }
+    void Update()
+    {
+        if (_currentWeapon != null)
+        {
+            Shoot();
+        }
+    }
+
+    void Shoot()
+    {
+        Ray ray = Camera.main.ScreenPointToRay(new Vector2(Screen.width, Screen.height) / 2);
+        Debug.DrawRay(ray.origin, ray.direction);
+
+        RaycastHit hit;
+        bool detected = Physics.Raycast(ray, out hit);
+        if (detected) {
+            Debug.Log(hit.collider.name);
+        }
+    }
 
     ////碰撞后 打开已放置好的拾取的抢的模型的状态 并销毁碰撞到的other
     private void OnTriggerEnter(Collider other)
