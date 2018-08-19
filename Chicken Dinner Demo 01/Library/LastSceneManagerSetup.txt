@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Scenes/PlayerCure.unity
+- path: Assets/_Scenes/island.unity
   isLoaded: 1
   isActive: 1

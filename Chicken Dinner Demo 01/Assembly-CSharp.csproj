@@ -61,6 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\ChickenDinner\Players\PlayerController.cs" />
     <Compile Include="Assets\Scripts\PlayerCure\PlayerTreatment.cs" />
     <Compile Include="Assets\Scripts\ScriptsTest\ChangeColor.cs" />
     <Compile Include="Assets\Scripts\ScriptsTest\MoveAsDebug.cs" />
