@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour {
     void Move()
     {
         var h = Input.GetAxis("Horizontal");
-        Debug.Log(h);
+        //Debug.Log(h);
         var v = Input.GetAxis("Vertical");
         animator.SetFloat("speedX", h*1.76f);
         animator.SetFloat("speedZ", v*2.71f);
