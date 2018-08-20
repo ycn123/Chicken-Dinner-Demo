@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 4e46a960e0020cb4c81c7d11445014ab
 ModelImporter:
-  serializedVersion: 23
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: Body
     100002: Bottoms
@@ -174,6 +174,7 @@ ModelImporter:
     13700008: Hair
     13700010: Shoes
     13700012: Tops
+    2186277476908879412: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -212,7 +213,13 @@ ModelImporter:
     optimizeGameObjects: 0
     motionNodeName: 
     rigImportErrors: 
-    rigImportWarnings: 
+    rigImportWarnings: "Avatar Rig Configuration mis-match. Bone length in configuration
+      does not match position in animation file:\n\t'mixamorig:LeftUpLeg' : position
+      error = 32.309555 mm\n\t'mixamorig:LeftLeg' : position error = 118.332962 mm\n\t'mixamorig:LeftFoot'
+      : position error = 118.784798 mm\n\t'mixamorig:LeftToeBase' : position error
+      = 45.088520 mm\n\t'mixamorig:RightUpLeg' : position error = 32.488632 mm\n\t'mixamorig:RightLeg'
+      : position error = 117.741707 mm\n\t'mixamorig:RightFoot' : position error =
+      118.574150 mm\n\t'mixamorig:RightToeBase' : position error = 45.782520 mm\n"
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -250,8 +257,6 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.005
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
